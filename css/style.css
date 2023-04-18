@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
     color: #6b6b6b;
-    outline: red solid 1px !important
-}
+    /*outline: red solid 1px !important
+*/}
 
 .header {
     display: flex;
@@ -56,7 +56,7 @@ li:last-of-type {
 
 .eyecatch {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
     
 
@@ -119,8 +119,8 @@ h2.content {
 }
 
 .news-container {
-    width: 750px;/*fit-content;*/
-    margin:20px auto 80px;
+    width: 750px;
+    margin: 0px auto 80px;
 }
 
 .hr {
@@ -158,7 +158,7 @@ li.news {
 .about {
     width: 100%;
     background: #F5F5F5;
-    padding: 40px 0 60px 0 ;
+    padding: 40px 150px 40px;
 }
 
 .about-1 {
@@ -167,8 +167,8 @@ li.news {
 
 .about-container {
     display: flex;
-    width: 90%;
-    margin: 30px auto;
+    justify-content: space-evenly;
+    /*width: 90%;*/
 }
 
 .about-container-text {
@@ -185,23 +185,24 @@ li.news {
 }
 .about-img {
     width: 30%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 .service {
     width: 100%;
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .service-1 {
-    width: 100%;
+    padding-left: 15%;
 }
 
 .grid {
     display: grid;
-    grid-template-rows: 170px 170px;
-    grid-template-columns: 500px 500px;
-    margin: 0 auto;
+    grid-template-rows: 50% 50%; /*180px 180px;*/
+    grid-template-columns: 35% 35%;/*490px 490px;*/
+    justify-content: center;
 }
 
 .box-1 {
