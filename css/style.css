@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     color: #6b6b6b;
+    outline: red solid 1px !important
 }
 
 .header {
@@ -144,8 +145,6 @@ li.news {
 
 .label {
     background: #B31667;
-    /*width: 100px;
-    height: 25px;*/
     border-radius: 20px;
     color: #fff;
     margin: 0 25px;
@@ -190,7 +189,7 @@ li.news {
 }
 
 .service {
-    width: 850px;
+    width: 100%;/*850px;*/
     margin: 30px auto;
 }
 
