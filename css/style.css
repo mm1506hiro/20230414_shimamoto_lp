@@ -132,10 +132,11 @@ ul.news {
 }
 
 li.news {
+
     display: flex;
     padding: 15px 0;
     border-bottom: 1px solid #dadada;
-    text-align: center;
+    justify-content: center;
 }
 
 .date {
@@ -304,11 +305,11 @@ li.news {
 }
 
 div.content {
-    margin-left: 20%;
+    margin-left: 5%;
 }
 
 .section {
-    width: 60%;
+    width: 90%;
     margin:25px auto 30px;
     display: flex;
     justify-content: space-between;
